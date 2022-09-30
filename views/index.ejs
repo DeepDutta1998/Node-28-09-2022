@@ -1,0 +1,64 @@
+<%- include("layouts/header")%>
+<body>
+  <div class="container">
+    <h1>Student Registration Form</h1>
+    <form action="/insert" method="post">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="firstName"
+              id="firstName"
+              required
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="lastName"
+              id="lastName"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="">Contact Number</label>
+            <input
+              type="number"
+              class="form-control"
+              name="contactNumber"
+              id="contactNumber"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg btn-block">
+        Register
+      </button>
+    </form>
+  </div>
+</body>
+<%- include("layouts/footer")%>

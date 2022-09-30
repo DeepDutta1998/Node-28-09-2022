@@ -1,0 +1,26 @@
+{
+  "name": "28-09-2022",
+  "version": "1.0.0",
+  "description": "Student CRUD operation",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Express",
+    "dotenv",
+    "mongoose",
+    "ejs"
+  ],
+  "author": "Debashis@R",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
